@@ -104,11 +104,12 @@ const TypingBoard = () => {
             } else {
                 if (characters[characterIndex].innerText === typedCharacter) {
                     characters[characterIndex].classList.add("correct");
-                    setCharacterIndex((prevIndex) => prevIndex + 1);
+
                 } else {
                     setErrors((prevErrors) => prevErrors + 1);
                     characters[characterIndex].classList.add("incorrect");
                 }
+                setCharacterIndex((prevIndex) => prevIndex + 1);
 
             }
 
