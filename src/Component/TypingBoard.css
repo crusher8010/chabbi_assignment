@@ -1,0 +1,45 @@
+.details-container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.errors,
+.time,
+.wpm,
+.cpm {
+    width: 150px;
+    height: 150px;
+    border: 1px solid orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 22px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+}
+
+.errors {
+    color: red;
+}
+
+.wpm {
+    color: rgb(201, 109, 10);
+}
+
+.cpm {
+    color: green;
+}
+
+.time {
+    color: blueviolet;
+}
+
+.heading {
+    text-align: center;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+}

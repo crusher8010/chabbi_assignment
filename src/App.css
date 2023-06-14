@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+.App {
+  background: url("https://img.freepik.com/free-vector/modern-stylish-hexagonal-background-wallpaper_78370-720.jpg?w=996&t=st=1686727708~exp=1686728308~hmac=b0f8d9d1327eafcd1bf5d54be43173f2408902b70b0f900da49fdccd24e36b22");
+  min-height: 100vh;
+  object-fit: cover;
+}
+
+.resettimer {
+  display: flex;
+  margin: auto;
+  text-align: center;
+  padding: 15px;
+  margin-top: 2%;
+  color: #ffffff;
+  align-items: center;
+  border-radius: 10px;
+
+  font-size: 21px;
+  background: linear-gradient(160deg, rgb(226, 138, 37), violet);
+}
+
+.midData {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.para {
+  width: 80%;
+  margin: auto;
+  border: 1px solid #333;
+  background-color: blanchedalmond;
+  border-radius: 20px;
+  margin-top: 30px;
+  padding: 12px;
+  font-size: 22px;
+}
+
+.Input {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.Input input {
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+  font-size: 21px;
+}
+
+.correct {
+  font-weight: bold;
+}
+
+.incorrect {
+  font-weight: bold;
+}
+
+.active {
+  font-weight: bold;
+  color: orange;
+}
