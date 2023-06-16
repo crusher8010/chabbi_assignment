@@ -9,7 +9,7 @@
 .errors,
 .time,
 .wpm,
-.cpm {
+.accuracy {
     width: 150px;
     height: 150px;
     border: 1px solid orange;
@@ -42,4 +42,22 @@
     text-align: center;
     /* margin-top: 20px; */
     padding-top: 20px;
+}
+
+.next {
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 1px solid orange;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+
+}
+
+.nxtChar {
+    color: blue;
+    font-size: 1.5em;
 }

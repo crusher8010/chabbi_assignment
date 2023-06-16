@@ -34,7 +34,8 @@
 }
 
 .para {
-  width: 80%;
+  width: 20%;
+  text-align: center;
   margin: auto;
   border: 1px solid #333;
   background-color: blanchedalmond;
@@ -59,13 +60,14 @@
 
 .correct {
   font-weight: bold;
+  color: green;
 }
 
 .incorrect {
   font-weight: bold;
+  color: red;
 }
 
 .active {
   font-weight: bold;
-  color: orange;
 }
